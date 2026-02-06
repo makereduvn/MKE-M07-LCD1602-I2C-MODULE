@@ -11,8 +11,9 @@ Mạch hiển thị MKE-M07 LCD1602 I2C Module hỗ trợ điện áp điều kh
 - Chuẩn giao tiếp: Digital I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
 - Loại LCD: LCD1602 (2 dòng, mỗi dòng 16 ký tự)
-- Tích hợp sẵn bộ chuyển đổi giao tiếp I2C.
-- Tích hợp sẵn trở kéo cho giao tiếp I2C.
+- Tích hợp sẵn bộ chuyển đổi và trở kéo cho giao tiếp I2C.
+- Tích hợp biến trở chỉnh độ tương phản.
+- Tích hợp nút nhấn cấu hình chức năng.
 - Khả năng tương thích:
   - Arduino
   - Raspberry Pi
@@ -86,5 +87,6 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-07 LCD1602 I2C](/extras/MKE-M07_2.png)
 ![MKE-07 LCD1602 I2C](/extras/MKE-M07_3.png)
+
 
 
