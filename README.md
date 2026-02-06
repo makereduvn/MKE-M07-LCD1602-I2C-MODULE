@@ -49,7 +49,7 @@ Mạch hiển thị MKE-M07 LCD1602 I2C Module hỗ trợ điện áp điều kh
     <td>Chân tín hiệu I2C Serial Clock</td>
   </tr>
   <tr>
-    <td>Button</td>
+    <td>SETUP</td>
     <td>Nút nhấn cấu hình chức năng và địa chỉ I2C</td>
   </tr>
   <tr>
@@ -87,6 +87,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-07 LCD1602 I2C](/extras/MKE-M07_2.png)
 ![MKE-07 LCD1602 I2C](/extras/MKE-M07_3.png)
+
 
 
 
