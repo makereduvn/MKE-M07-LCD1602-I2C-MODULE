@@ -62,7 +62,7 @@ Mạch hiển thị MKE-M07 LCD1602 I2C Module hỗ trợ điện áp điều kh
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
-- Kết nối chân SCL của Module với chân I2C Clock xủa mạch điều khiển.
+- Kết nối chân SCL của Module với chân I2C Clock của mạch điều khiển.
 - Kết nối chân SDA của Module với chân I2C Data của mạch điều khiển.
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
@@ -87,4 +87,5 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-07 LCD1602 I2C](/extras/MKE-M07_2.png)
 ![MKE-07 LCD1602 I2C](/extras/MKE-M07_3.png)
+
 
