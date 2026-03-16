@@ -61,11 +61,7 @@ Mạch hiển thị MKE-M07 LCD1602 I2C Module hỗ trợ điện áp giao tiế
 
 ## Hướng dẫn cấu hình Module MKE-M07 LCD1602 I2C
 
-Module **MKE-M07 LCD1602 I2C** được thiết kế tối ưu cho hệ sinh thái MakerEdu, hỗ trợ tốt cho Arduino Uno, ESP32 và các vi điều khiển khác. Điểm đặc biệt của module này là tích hợp sẵn nút **Setup** trên mạch, cho phép cấu hình trực tiếp các thông số phần cứng mà không cần nạp lại code.
-
----
-
-### 1. Thay đổi địa chỉ I2C (I2C Address)
+### Thay đổi địa chỉ I2C (I2C Address)
 
 Sử dụng khi bạn cần kết nối nhiều thiết bị I2C trên cùng một bus và muốn tránh trùng lặp địa chỉ.
 
@@ -75,9 +71,7 @@ Sử dụng khi bạn cần kết nối nhiều thiết bị I2C trên cùng m�
 3.  **Lưu cài đặt:** Nhấn và giữ nút **Setup** cho đến khi màn hình hiện thông báo: **"I2C ADDR SAVED!"**.
 4.  **Hoàn tất:** Ngắt điện và cấp nguồn lại để module nhận địa chỉ mới.
 
----
-
-### 2. Tùy chỉnh độ sáng đèn nền (Brightness)
+### Tùy chỉnh độ sáng đèn nền (Brightness)
 
 Module hỗ trợ 5 mức độ sáng để phù hợp với các điều kiện môi trường khác nhau.
 
@@ -87,9 +81,7 @@ Module hỗ trợ 5 mức độ sáng để phù hợp với các điều kiện
 4.  **Lưu cài đặt:** Nhấn và giữ nút **Setup** cho đến khi màn hình hiển thị: **"Shut down PWR Pls!"**.
 5.  **Hoàn tất:** Tắt nguồn và khởi động lại.
 
----
-
-### 3. Khôi phục cài đặt gốc (Factory Reset)
+### Khôi phục cài đặt gốc (Factory Reset)
 
 Nếu bạn muốn đưa mọi thiết lập về trạng thái mặc định của nhà sản xuất.
 
@@ -97,8 +89,6 @@ Nếu bạn muốn đưa mọi thiết lập về trạng thái mặc định c�
 * **Trình tự hiển thị:** Màn hình sẽ hiện lần lượt: `I2C Address` -> **`FACTORY RESET`**.
 * **Thông số sau Reset:** * Địa chỉ I2C: `0x27`
     * Độ sáng: `5/5` (Mức cao nhất)
-
----
 
 ### Tóm tắt thao tác nút Setup
 
