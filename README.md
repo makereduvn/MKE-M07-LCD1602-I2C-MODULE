@@ -10,6 +10,7 @@ Mạch hiển thị MKE-M07 LCD1602 I2C Module hỗ trợ điện áp giao tiế
 - Điện áp giao tiếp: TTL 3.3VDC/5VDC
 - Chuẩn giao tiếp: Digital I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
+- Địa chỉ I2C mặc định: **0x27**
 - Loại LCD: LCD1602 (2 dòng, mỗi dòng 16 ký tự)
 - Tích hợp sẵn bộ chuyển đổi và trở kéo cho giao tiếp I2C.
 - Tích hợp biến trở chỉnh độ tương phản.
@@ -59,7 +60,7 @@ Mạch hiển thị MKE-M07 LCD1602 I2C Module hỗ trợ điện áp giao tiế
 </tbody>
 </table>
 
-## Hướng dẫn cấu hình Module MKE-M07 LCD1602 I2C
+## Hướng dẫn cấu hình
 
 ### Thay đổi địa chỉ I2C (I2C Address)
 
@@ -87,8 +88,9 @@ Nếu bạn muốn đưa mọi thiết lập về trạng thái mặc định c�
 
 * **Thao tác:** Nhấn giữ nút **Setup** đồng thời trong lúc vừa cấp nguồn cho module.
 * **Trình tự hiển thị:** Màn hình sẽ hiện lần lượt: `I2C Address` -> **`FACTORY RESET`**.
-* **Thông số sau Reset:** * Địa chỉ I2C: `0x27`
-    * Độ sáng: `5/5` (Mức cao nhất)
+* **Thông số sau Reset:**
+  - Địa chỉ I2C mặc định: `0x27`
+  - Độ sáng mặc định: `5/5` (mức cao nhất)
 
 ### Tóm tắt thao tác nút Setup
 
